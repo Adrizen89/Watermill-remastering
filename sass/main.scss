@@ -35,6 +35,27 @@ height: 1000px;
             width: 90%;
         }
     }
+
+    .flag-fr{
+        margin-top: 20px;
+    }
+    .flag-en{
+        margin-top: 60px;
+    }
+    .flag-ne{
+        margin-top: 10px;
+    }
+    .flag{
+        display: flex;
+        justify-content: space-evenly;
+        width: 30%;
+        img{
+            width: 30px;
+            height: 30px;
+            border-radius: 100em;
+            border: solid 2px $color-bulle;
+            }
+    }
     
 
     
@@ -181,13 +202,50 @@ height: 1000px;
                     
                     }
     
+main{
+    .fb{
+        margin-top: 300px;
+        img{
+        width: 80px;
+        height: 80px;
+        border-radius: 100em;
+        border: solid 2px $color-bulle;
+        }
+    }
+    .insta{
+       margin-top: 300px;
+        img{
+            width: 80px;
+            height: 80px;
+            border-radius: 100em;
+            border: solid 2px $color-bulle;
 
-
-    .pike-attack{
+        }
+    }
+    .youtube{
+        img{
+            width: 80px;
+            height: 80px;
+            border-radius: 100em;
+            border: solid 2px $color-bulle;
+        }
+    }
+}
+   
+         
+         .pike-attack{
         width: 600px;
         height: auto;
         margin-left: 600px;
         }
+    
+    
+
+    
+
+
+    
+
     
 
 
