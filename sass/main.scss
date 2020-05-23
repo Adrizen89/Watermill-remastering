@@ -33,6 +33,12 @@ height: 1000px;
             align-items: center;
             justify-content: space-evenly;
             width: 90%;
+            li{
+                font-size: 1.2em;
+                a{
+                    color: $color-bulle;
+                }
+            }
         }
     }
 
@@ -147,29 +153,32 @@ height: 1000px;
         
     }
     .bulle-small2{
+        img{
         border-radius: 100em;
         border: solid 2px $color-bulle;
-        width: 20px;
-        height: 20px;
+        width: 40px;
+        height: 40px;
         margin-top: 100px;
-        box-shadow: 0em 0em 2em $color-bulle;
+        box-shadow: 0em 0em 2em $color-bulle;}
         
    }
    .bulle-small3{
+       img{
     border-radius: 100em;
     border: solid 2px $color-bulle;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     margin-top: 150px;
-    box-shadow: 0em 0em 2em $color-bulle;
+    box-shadow: 0em 0em 2em $color-bulle;}
     
     }
     .bulle-small4{
+        img{
         border-radius: 100em;
         border: solid 2px $color-bulle;
         width: 60px;
         height: 60px;
-        box-shadow: 0em 0em 2em $color-bulle;
+        box-shadow: 0em 0em 2em $color-bulle;}
        
         }
         .bulle-middle1{
@@ -192,45 +201,18 @@ height: 1000px;
                 
                 }
                 .bulle-big1{
+                    img{
                     border-radius: 100em;
                     border: solid 2px $color-bulle;
                     width: 150px;
                     height: 150px;
                     margin-bottom: 100px;
-                    box-shadow: 0em 0em 2em $color-bulle;
+                    box-shadow: 0em 0em 2em $color-bulle;}
                     
                     
                     }
     
-main{
-    .fb{
-        margin-top: 300px;
-        img{
-        width: 80px;
-        height: 80px;
-        border-radius: 100em;
-        border: solid 2px $color-bulle;
-        }
-    }
-    .insta{
-       margin-top: 300px;
-        img{
-            width: 80px;
-            height: 80px;
-            border-radius: 100em;
-            border: solid 2px $color-bulle;
 
-        }
-    }
-    .youtube{
-        img{
-            width: 80px;
-            height: 80px;
-            border-radius: 100em;
-            border: solid 2px $color-bulle;
-        }
-    }
-}
    
          
          .pike-attack{
