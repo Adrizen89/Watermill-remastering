@@ -1,0 +1,157 @@
+$color-bg:#b0c7f4;
+$color-bulle:#4f6070;
+
+@mixin font {
+    font-family: 'Muli', sans-serif;
+}
+
+
+*{margin: 0;
+  @include font();}
+a{text-decoration: none;}
+li{list-style: none;}
+body{background-color: $color-bg;}
+
+header{
+
+background-image: url(img/header.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+height: 1000px;
+
+
+    img{
+        width: 200px;
+        padding-left: 30px;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-evenly;
+            ul{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 90%;
+        }
+    }
+    
+
+    
+}
+
+.bulle-truite{
+    width: 200px;
+    height: 200px;
+    border-radius: 100em;
+    border: solid $color-bulle 2px;
+
+    background-image: url(img/truite_1m.jpg);
+    background-position: center;
+    background-size: 260px;
+    background-repeat: no-repeat;
+
+    box-shadow: 0em 0em 2em $color-bulle;
+
+    margin: 0 0 0 900px ;
+
+    cursor: pointer;
+}
+.bulle-record{
+    width: 300px;
+    height: 300px;
+    border-radius: 100em;
+    border: solid $color-bulle 2px;
+
+    background-image: url(img/1m39.jpg);
+    background-position: center ;
+    background-size: 335px;
+    background-repeat: no-repeat;
+
+    box-shadow: 0em 0em 2em $color-bulle;
+
+    margin: 100px 0 0 100px;
+
+    cursor: pointer;
+}
+.bulle-big2{
+    border-radius: 100em;
+    border: solid 2px $color-bulle;
+    width: 180px;
+    height: 180px;
+    margin-left: 400px;
+}
+
+section{
+        
+    .bulle-small1{
+         border-radius: 100em;
+        border: solid 2px $color-bulle;
+        width: 15px;
+        height: 15px;
+        margin-left: 750px;
+    }
+    .bulle-small2{
+        border-radius: 100em;
+        border: solid 2px $color-bulle;
+        width: 20px;
+        height: 20px;
+        margin-left: 700px;
+        margin-top: 30px;
+   }
+   .bulle-small3{
+    border-radius: 100em;
+    border: solid 2px $color-bulle;
+    width: 30px;
+    height: 30px;
+    margin-left: 800px;
+    }
+    .bulle-small4{
+        border-radius: 100em;
+        border: solid 2px $color-bulle;
+        width: 60px;
+        height: 60px;
+        margin-left: 700px;
+        }
+        .bulle-middle1{
+            border-radius: 100em;
+            border: solid 2px $color-bulle;
+            width: 90px;
+            height: 90px;
+            margin-left: 850px;
+            }
+            .bulle-middle2{
+                border-radius: 100em;
+                border: solid 2px $color-bulle;
+                width: 110px;
+                height: 110px;
+                margin-left: 550px;
+                }
+                .bulle-big1{
+                    border-radius: 100em;
+                    border: solid 2px $color-bulle;
+                    width: 150px;
+                    height: 150px;
+                    margin-left: 800px;
+                    }
+    
+
+
+    img{
+        width: 600px;
+        height: auto;
+        margin-left: 600px;
+        }
+    }
+
+
+
+
+footer{
+    background-image: url(img/footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    
+    
+}
