@@ -27,6 +27,21 @@ header {
       align-items: center;
       justify-content: space-evenly;
       width: 90%; }
+  header .flag-fr {
+    margin-top: 20px; }
+  header .flag-en {
+    margin-top: 60px; }
+  header .flag-ne {
+    margin-top: 10px; }
+  header .flag {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%; }
+    header .flag img {
+      width: 30px;
+      height: 30px;
+      border-radius: 100em;
+      border: solid 2px #4f6070; }
 
 .bulle-big {
   display: flex;
@@ -141,6 +156,26 @@ header {
   height: 150px;
   margin-bottom: 100px;
   box-shadow: 0em 0em 2em #4f6070; }
+
+main .fb {
+  margin-top: 300px; }
+  main .fb img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100em;
+    border: solid 2px #4f6070; }
+main .insta {
+  margin-top: 300px; }
+  main .insta img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100em;
+    border: solid 2px #4f6070; }
+main .youtube img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100em;
+  border: solid 2px #4f6070; }
 
 .pike-attack {
   width: 600px;
