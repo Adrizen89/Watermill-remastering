@@ -30,7 +30,7 @@ header {
       header nav ul li {
         font-size: 1.2em; }
         header nav ul li a {
-          color: #4f6070; }
+          color: #FAFAFA; }
   header .flag-fr {
     margin-top: 20px; }
   header .flag-en {
@@ -45,7 +45,7 @@ header {
       width: 30px;
       height: 30px;
       border-radius: 100em;
-      border: solid 2px #4f6070; }
+      border: solid 2px #FAFAFA; }
 
 .bulle-big {
   display: flex;
@@ -57,12 +57,12 @@ header {
   width: 200px;
   height: 200px;
   border-radius: 100em;
-  border: solid #4f6070 2px;
+  border: solid #FAFAFA 2px;
   background-image: url(img/truite_1m.jpg);
   background-position: center;
   background-size: 260px;
   background-repeat: no-repeat;
-  box-shadow: 0em 0em 2em #4f6070;
+  box-shadow: 0em 0em 2em #FAFAFA;
   margin-top: 220px;
   margin-left: 50px;
   cursor: pointer; }
@@ -71,20 +71,20 @@ header {
   width: 300px;
   height: 300px;
   border-radius: 100em;
-  border: solid #4f6070 2px;
+  border: solid #FAFAFA 2px;
   background-image: url(img/1m39.jpg);
   background-position: center;
   background-size: 335px;
   background-repeat: no-repeat;
-  box-shadow: 0em 0em 2em #4f6070;
+  box-shadow: 0em 0em 2em #FAFAFA;
   cursor: pointer; }
 
 .bulle-big2 {
   border-radius: 100em;
-  border: solid 2px #4f6070;
+  border: solid 2px #FAFAFA;
   width: 180px;
   height: 180px;
-  box-shadow: 0em 0em 2em #4f6070;
+  box-shadow: 0em 0em 2em #FAFAFA;
   background-image: url(img/bat-1.jpg);
   background-position: bottom;
   background-size: 200px;
@@ -92,10 +92,10 @@ header {
 
 .bulle-small5 {
   border-radius: 100em;
-  border: solid 2px #4f6070;
+  border: solid 2px #FAFAFA;
   width: 20px;
   height: 20px;
-  box-shadow: 0em 0em 2em #4f6070; }
+  box-shadow: 0em 0em 2em #FAFAFA; }
 
 .bulle-middle {
   display: flex;
@@ -109,67 +109,134 @@ header {
 
 .bulle-small1 {
   border-radius: 100em;
-  border: solid 2px #4f6070;
+  border: solid 2px #FAFAFA;
   width: 15px;
   height: 15px;
   margin-top: 200px;
-  box-shadow: 0em 0em 2em #4f6070; }
+  box-shadow: 0em 0em 2em #FAFAFA; }
 
 .bulle-small2 img {
   border-radius: 100em;
-  border: solid 2px #4f6070;
+  border: solid 2px #FAFAFA;
   width: 40px;
   height: 40px;
   margin-top: 100px;
-  box-shadow: 0em 0em 2em #4f6070; }
+  box-shadow: 0em 0em 2em #FAFAFA; }
 
 .bulle-small3 img {
   border-radius: 100em;
-  border: solid 2px #4f6070;
+  border: solid 2px #FAFAFA;
   width: 50px;
   height: 50px;
   margin-top: 150px;
-  box-shadow: 0em 0em 2em #4f6070; }
+  box-shadow: 0em 0em 2em #FAFAFA; }
 
 .bulle-small4 img {
   border-radius: 100em;
-  border: solid 2px #4f6070;
+  border: solid 2px #FAFAFA;
   width: 60px;
   height: 60px;
-  box-shadow: 0em 0em 2em #4f6070; }
+  box-shadow: 0em 0em 2em #FAFAFA; }
 
 .bulle-middle1 {
   border-radius: 100em;
-  border: solid 2px #4f6070;
+  border: solid 2px #FAFAFA;
   width: 90px;
   height: 90px;
-  box-shadow: 0em 0em 2em #4f6070; }
+  box-shadow: 0em 0em 2em #FAFAFA; }
 
 .bulle-middle2 {
   border-radius: 100em;
-  border: solid 2px #4f6070;
+  border: solid 2px #FAFAFA;
   width: 110px;
   height: 110px;
   margin-top: 150px;
-  box-shadow: 0em 0em 2em #4f6070; }
+  box-shadow: 0em 0em 2em #FAFAFA; }
 
 .bulle-big1 img {
   border-radius: 100em;
-  border: solid 2px #4f6070;
+  border: solid 2px #FAFAFA;
   width: 150px;
   height: 150px;
   margin-bottom: 100px;
-  box-shadow: 0em 0em 2em #4f6070; }
+  box-shadow: 0em 0em 2em #FAFAFA; }
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%; }
 
 .pike-attack {
   width: 600px;
-  height: auto;
-  margin-left: 600px; }
+  height: 600px; }
+
+.pecheur {
+  width: 300px;
+  height: 300px; }
 
 footer {
   background-image: url(img/footer.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 400px; }
+  footer section {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 120px;
+    color: white; }
+    footer section a {
+      color: white;
+      font-size: 1em;
+      padding: 10px; }
+    footer section p {
+      padding: 10px; }
+    footer section h3 {
+      color: white;
+      font-size: 1.3em; }
+    footer section .peche {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-right: white solid 1px;
+      padding-right: 80px; }
+    footer section .hebergement {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 20px;
+      border-right: white solid 1px;
+      padding-right: 80px; }
+    footer section .contact {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 40px;
+      border-right: white solid 1px;
+      padding-right: 80px; }
+    footer section .reseaux-sociaux {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      footer section .reseaux-sociaux .logo-watermill {
+        width: 120px;
+        height: auto; }
+      footer section .reseaux-sociaux .flex-logo {
+        display: flex;
+        flex-direction: row; }
+        footer section .reseaux-sociaux .flex-logo .fb img {
+          width: 30px;
+          height: 30px;
+          border-radius: 100em;
+          border: solid 2px #FAFAFA; }
+        footer section .reseaux-sociaux .flex-logo .insta img {
+          width: 30px;
+          height: 30px;
+          border-radius: 100em;
+          border: solid 2px #FAFAFA; }
+        footer section .reseaux-sociaux .flex-logo .youtube img {
+          width: 30px;
+          height: 30px;
+          border-radius: 100em;
+          border: solid 2px #FAFAFA; }
 
 /*# sourceMappingURL=style.css.map */
